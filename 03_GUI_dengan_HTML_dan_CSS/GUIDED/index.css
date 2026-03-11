@@ -1,0 +1,29 @@
+.kotak-input {
+  display: block;
+  resize: none;
+}
+
+p > span {
+  color: coral; /* atau juga bisa pakai kode hex-nya, #FF7F50 */
+  font-weight: bold;
+}
+
+/* Preseden css */
+.kotak-input {
+  border: 1px solid blue;
+  border: 2px solid red;
+}
+
+/* Media Query */
+@media (max-width: 600px) {
+  .kotak-input {
+    width: 90%;
+    font-size: 14px;
+  }
+}
+
+/* Selektor berdasarkan id */
+#huruf-kecil {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
