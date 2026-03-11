@@ -22,6 +22,6 @@ const user = {
   "first_name": "Surya",
   "last_name": "Pradipta",
   age: 20
-}
+} // object
 
 console.log(user["first_name"]);
