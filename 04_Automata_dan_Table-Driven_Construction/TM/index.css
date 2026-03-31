@@ -1,0 +1,100 @@
+* {
+  font-family: "Inconsolata", monospace;
+  box-sizing: border-box;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.kotak-input {
+  display: block;
+  resize: none;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+p > span {
+  color: coral;
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+  outline: 0;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 0.25rem;
+  transition:
+    color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+.mode-div {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.mode-gelap {
+  background-color: #171b25;
+  color: #ebecf7;
+}
+
+.mode-gelap .kotak-input {
+  background-color: #2e3443;
+  color: #ebecf7;
+  border: none;
+}
+
+.mode-gelap button {
+  background-color: #29ddcc;
+  color: #171b25;
+  border: none;
+}
+
+.mode-gelap button:hover {
+  background-color: #23c4b5;
+}
+
+.mode-sepia {
+  background-color: #f4ecd8;
+  color: #5b4636;
+}
+
+.mode-sepia .kotak-input {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #ccc;
+}
+
+.mode-sepia button {
+  background-color: #29ddcc;
+  color: #171b25;
+  border: none;
+}
+
+.mode-sepia button:hover {
+  background-color: #23c4b5;
+}
