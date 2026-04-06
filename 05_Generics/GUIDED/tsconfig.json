@@ -1,0 +1,11 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    // Recommended Options
+    "strict": true, // biar berkas js patuh ts
+    "allowJs": true, // izinkan js
+    "checkJs": true, // sama kayak atas
+    "noEmit": true // biar gak ada ts
+  },
+  "include": ["./**/*.js"]
+}
